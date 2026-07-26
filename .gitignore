@@ -1,0 +1,9 @@
+# Pebble build
+build/
+.lock-waf_*
+.wafpickle-*
+
+# Cloudflare
+worker/.wrangler/
+
+node_modules/

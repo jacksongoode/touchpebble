@@ -1,0 +1,40 @@
+{
+  "name": "touchpebble",
+  "author": "Jackson Goode",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Touchpebble",
+    "uuid": "b8e1b484-9f5d-4b3b-9310-71b1f92fb80a",
+    "sdkVersion": "3",
+    "capabilities": [
+      "configurable"
+    ],
+    "enableMultiJS": false,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "QR_DATA",
+      "QR_SIZE",
+      "NEEDS_SETUP"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "APP_ICON",
+          "file": "images/icon.png",
+          "menuIcon": true
+        }
+      ]
+    }
+  }
+}

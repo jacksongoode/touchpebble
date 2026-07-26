@@ -1,0 +1,15 @@
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+Language: Cpp
+ColumnLimit: 80
+AllowShortIfStatementsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: All
+AllowShortCaseLabelsOnASingleLine: true
+AlignAfterOpenBracket: Align
+BreakBeforeBraces: Attach
+IncludeBlocks: Preserve
+SortIncludes: false
+AlignConsecutiveDeclarations: AcrossComments
+AlignConsecutiveAssignments: false

@@ -1,0 +1,11 @@
+name = "touchpebble"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+TOUCHSTONE_ORIGIN = "https://portal.touchstoneclimbing.com"
+# Cloudflare Version ID of the current deployment. Update after each
+# `wrangler deploy` (the Version ID is printed in the deploy output).
+# The worker returns this at GET /version so users can cross-check
+# against the Cloudflare dashboard without API access.
+CF_VERSION = "f186e9ef-1200-4ada-a1fa-34385805f57a" # update after each deploy
